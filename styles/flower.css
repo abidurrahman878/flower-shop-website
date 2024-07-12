@@ -15,7 +15,7 @@ body {
     padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -24,7 +24,7 @@ body {
     margin-bottom: 25px;
 }
 
-.section-description{
+.section-description {
     color: #272727;
     text-align: center;
     font-size: 18px;
@@ -68,53 +68,74 @@ body {
     margin-bottom: 0px;
 }
 
-.banner-description{
+.banner-description {
     margin-top: 35px;
     margin-bottom: 45px;
 }
 
 /* main related syles */
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* feature flower related style */
 
-.feature{
+.feature {
     max-width: 594px;
     text-align: center;
     margin: 0 auto;
 }
 
-#feature-descrip{
+#feature-descrip {
     font-weight: 400px;
     margin-bottom: 60px;
 }
 
-.flower-container{
+.flower-container {
     display: flex;
     gap: 24px;
     text-align: center;
 }
 
 
-.flower1 > img{
+.flower1>img {
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 100px 70px 0px;
 
 }
 
-.flower2 > img{
+.flower2>img {
     background: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 100px 50px 60px 50px;
-    
+
 }
 
-.flower3 > img{
+.flower3>img {
     background: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 60px 70px 0px;
+}
+
+/* info-icon related styles */
+
+.icon-container {
+    padding: 130px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 0px;
+}
+
+.info-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.8);
 }
